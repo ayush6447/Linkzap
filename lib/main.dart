@@ -15,7 +15,7 @@ class QRCodeApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'QR Code Generator',
+      title: 'Linkzap',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.dark,
@@ -142,7 +142,7 @@ class _QRCodeGeneratorPageState extends State<QRCodeGeneratorPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('QR Code Generator'),
+        title: const Text('Linkzap'),
         centerTitle: true,
         actions: [
           if (_urlController.text.isNotEmpty)
